@@ -1,0 +1,11 @@
+# Project-specific overrides
+
+# This file is used to override language statistics
+*.yml linguist-detectable=false
+
+src/**/*.ts linguist-detectable
+*.tsx linguist-detectable
+examples/site/index.html linguist-vendored
+*.min.js linguist-generated
+*.jpeg binary  
+package-lock.json linguist-generated
